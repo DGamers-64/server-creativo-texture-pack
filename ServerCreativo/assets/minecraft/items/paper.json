@@ -1,0 +1,17 @@
+
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": "{ticket_metro_port_fufa:1b}",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/ticket_metro_port_fufa"
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/paper"
+    }
+  }
+}
