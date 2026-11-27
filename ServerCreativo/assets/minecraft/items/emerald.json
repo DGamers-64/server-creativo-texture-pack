@@ -1,0 +1,17 @@
+
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": "{sotitocoin:1b}",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/sotitocoin"
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/emerald"
+    }
+  }
+}
